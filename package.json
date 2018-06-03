@@ -38,13 +38,13 @@
     "socket.io": "^2.0.4"
   },
   "config": {
-    "rasanluendpoint": "http://localhost:5000",
+    "rasanluendpoint": "http://168.62.161.223:5000",
     "rasacoreendpoint": "http://localhost:5005",
     "coresecuritytoken": "",
     "nlusecuritytoken": "",
     "cacheagents": false,
     "jwtsecret": "th1s1sn0t0nlyths3cr3tbutth3m0st1mp0rtAntp13c30f1nf0rmAt10nf0rth1sAppl1cAt10n",
-    "postgresserver": "postgres://postgres:rasaui@localhost:5432/rasaui"
+    "postgresserver": "postgres://postgres:3104@localhost:5432/postgres"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
